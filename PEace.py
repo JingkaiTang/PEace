@@ -23,7 +23,6 @@ the.tr3w at gmail dot com
 
 '''
 
-import sys
 import struct
 
 
