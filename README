@@ -1,0 +1,17 @@
+ PEace
+ =======
+
+ A Python library for reading Portable Executable files.
+ Simple to use, simple to read.
+ PE = PEace('path_to_pe')
+
+ PE.Sections contains an array of all the PE Sections with their fields and values
+ PE.getSectionByName('.section') returns the section given by the name argument
+ PE.ImportModules contains an array listing all the imported functions
+ PE.ExportModules same as above, for exports
+
+ Also includes a function to read Null Terminated Byte Strings from files (C style)
+ string = self.readNTTS(file_offset)
+ Reads bytes until null byte is encountered.
+
+
