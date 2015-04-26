@@ -14,4 +14,7 @@
  string = self.readNTTS(file_offset)
  Reads bytes until null byte is encountered.
 
+=======
 
+PEace3
+PEace for Python3 migrated by 2to3 tools, fix some str to bytes
